@@ -9,11 +9,14 @@
   <div id="main-content">
     <h1>Task Lister Lite™️</h1>
 
-    <form id="create-task-form" action="" method="POST">
+    <form id="create-task-form" action="#" method="POST">
       <label for="new-task-description">Task description:</label>
       <input type="text" id="new-task-description" name="new-task-description" placeholder="description">
-      <input type="submit" value="Create New Task">
+      <input type="submit" value="Create New Task" id="button">
     </form>
+    <!--'action' usually contains a path to the backend code that processes data captured from user // not with JavaScript (set to '#')-->
+
+    <!--'method' specifies the type of action we are executing with the form is submitted (POST = HTTP verb that captures data submitted by our form and use it in some way)-->
 
     <div id="list">
       <h2>My Todos</h2>
@@ -21,7 +24,7 @@
       </ul>
     </div>
 
-    <script src="./src/index.js"></script>
+    <script defer src="./src/index.js"></script>
   </div>
 
 </body>

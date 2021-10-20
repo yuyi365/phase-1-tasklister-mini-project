@@ -7,11 +7,20 @@ html {
 body {
   min-height: 100%;
   min-width: 100%;
-  background: linear-gradient(pink, violet);
+  background: linear-gradient(pink, rgb(143, 218, 143));
+}
+
+#button {
+  background-color: aqua;
+  box-shadow: 0 2px #666;
 }
 
 button {
-  font-size: 7px;
+  font-size: 14px;
+  font-family: 'Trebuchet MS', sans-serif;
+  background-color: aqua;
+  box-shadow: 0 2px #666;
+  transform: translateY(5px);
 }
 
 #main-content {
@@ -30,7 +39,7 @@ button {
 #list {
   margin: 10px;
   border: 1px solid #333;
-  background: rgba(255, 255, 255, 0.75);
+  background: rgba(218, 160, 160, 0.75);
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
